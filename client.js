@@ -1,17 +1,17 @@
 const net = require("net");
 const { IP, PORT } = require("./constants");
 
-// establishes a connection with the game server
-const connect = function () {
+// Establishes a connection with the game server
+const connect = function() {
   const conn = net.createConnection({
     host: IP,
     port: PORT,
-  });;
+  });
 
-  // interpret incoming data as text
+  // Interpret incoming data as text
   conn.setEncoding("utf8");
   conn.on("data", (data) => {
-    console.log(data)
+    console.log(data);
   });
 
   conn.on("connect", () => {
@@ -21,7 +21,8 @@ const connect = function () {
   conn.on("connect", () => {
     conn.write("Name: BEN");
   });
-
+  
+  // Testing below for how to add snake movements with a set interval. 
   // conn.on("connect", () => {
   //   setInterval(() => {
   //     conn.write("Move: up");}, 5000);
