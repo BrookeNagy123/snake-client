@@ -7,7 +7,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Preview of Game](202815527-3d6acb1a-c73d-45c2-ad01-95da15f069a5.png)
+![Preview of Game](/Users/brookenagy/lighthouse/snake-client/Preview.png)
 
 ## Getting Started
 	•	Follow steps inside the snek server repo to run the server side. URL: https://github.com/lighthouse-labs/snek-multiplayer
