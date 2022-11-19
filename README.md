@@ -10,6 +10,7 @@ Before you can run this client, you will need to be running the server side whic
 ![Preview of Game](Preview.png)
 
 ## Getting Started
-	•	Follow steps inside the snek server repo to run the server side. URL: https://github.com/lighthouse-labs/snek-multiplayer
+	•	Follow steps inside the snek server repo to run the server side. URL for Snek Server Repo: https://github.com/lighthouse-labs/snek-multiplayer
 	•	Run the development snake client using the node play.js command.
-	•	To exit the game from the client side use Control + C command.
+	•	To exit the game from the client side use the Control + C command.
+  
