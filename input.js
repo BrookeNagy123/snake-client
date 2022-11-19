@@ -1,4 +1,4 @@
-// setup interface to handle user input from stdin
+// Setup interface to handle user input from stdin.
 let connection;
 
 const setupInput = function(conn) {
@@ -8,6 +8,7 @@ const setupInput = function(conn) {
   stdin.setEncoding("utf8");
   stdin.resume();
   const handleUserInput = stdin.on("data",(key) => {
+    // Below are the keys to direct the snake and a few different options to say something in the game.
     if (key === '\u0003') {
       process.exit();
     }
