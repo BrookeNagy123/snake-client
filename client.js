@@ -22,11 +22,6 @@ const connect = function() {
     conn.write("Name: BEN");
   });
   
-  // Testing below for how to add snake movements with a set interval. 
-  // conn.on("connect", () => {
-  //   setInterval(() => {
-  //     conn.write("Move: up");}, 5000);
-  // });
   return conn;
 
 };
